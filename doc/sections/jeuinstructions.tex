@@ -901,7 +901,7 @@ B<c> <label>
 \hline
 1000 & HI & supérieur (non signé) & C == 1 et Z == 0\\
 \hline
-1001 & LS & inférieur ou égal (non signé) & C == 0 et Z == 1\\
+1001 & LS & inférieur ou égal (non signé) & C == 0 ou Z == 1\\
 \hline
 1010 & GE & supérieur ou égal (signé) & N == V\\
 \hline
@@ -909,7 +909,7 @@ B<c> <label>
 \hline
 1100 & GT & supérieur (signé) & Z == 0 et N == V\\
 \hline
-1101 & LE & inférieur ou égal (signé) & Z == 1 ou Z != V\\
+1101 & LE & inférieur ou égal (signé) & Z == 1 ou N != V\\
 \hline
 1110 & aucun ou AL & toujours vrai & \\
 \hline
